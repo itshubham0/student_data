@@ -1,0 +1,52 @@
+/* CSS reset */ 
+*{
+    margin: O;
+    padding: 0;
+}
+/* CSS Varaiables */
+:root{
+    --navbar-height: 59px;
+
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+/* Navigation Bar: logo and image */
+#logo{
+    /* margin: 34px 45px; */
+    background-color: blueviolet;
+
+}
+#logo img{
+    height:  56px;
+    margin: 34px 45px;
+
+}
+#menu{
+    display: flex;
+    align-items: center;
+}
+
+}
+/* Navigation Bar: list style*/
+#navbar ul{
+    display: flex;
+    /* display: block; */
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    border: red;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
